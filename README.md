@@ -3,10 +3,46 @@ Simple lightweight schedule engine for Java.
 
 I'm test this libary since a year and it works. So I make it public.
 
+Check out the [JavaDoc](https://jitpack.io/com/github/timia2109/JCron/1.0.0/javadoc/)
 
 ## Add to your project
+### Maven
+Add Jitpack as Repository
+```xml
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
 
+Add JCron
+```xml
+<dependency>
+    <groupId>com.github.timia2109</groupId>
+    <artifactId>JCron</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
 
+### Gradle
+Add Jitpack as Repository
+```gradle
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+Add JCron
+```gradle
+dependencies {
+        implementation 'com.github.timia2109:JCron:1.0.0'
+}
+```
 
 ## Examples
 Create a simple cron task at a fixed time
