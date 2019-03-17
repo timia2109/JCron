@@ -3,7 +3,7 @@ Simple lightweight schedule engine for Java.
 
 I'm test this libary since a year and it works. So I make it public.
 
-Check out the [JavaDoc](https://jitpack.io/com/github/timia2109/JCron/1.0.0/javadoc/)
+Check out the [JavaDoc](https://jitpack.io/com/github/timia2109/JCron/1.0.1/javadoc/)
 
 ## Add to your project
 ### Maven
@@ -22,7 +22,7 @@ Add JCron
 <dependency>
     <groupId>com.github.timia2109</groupId>
     <artifactId>JCron</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
@@ -40,7 +40,7 @@ allprojects {
 Add JCron
 ```gradle
 dependencies {
-        implementation 'com.github.timia2109:JCron:1.0.0'
+        implementation 'com.github.timia2109:JCron:1.0.1'
 }
 ```
 
